@@ -2,4 +2,5 @@
 
 Projet Web framework 2017
 
-Dépôt du projet sur [moodle](http://foad2.unicaen.fr/moodle/course/view.php?id=24809)
+  * Sujet su le [wiki](http://slamwi.kobject.net/slam4/php/phalcon/project/virtualhosts)
+  * Dépôt du projet sur [moodle](http://foad2.unicaen.fr/moodle/course/view.php?id=24809)
