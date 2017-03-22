@@ -1,0 +1,85 @@
+[
+    {
+        "name": "frameworks/jquery",
+        "version": "2.1.4",
+        "version_normalized": "2.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/frameworks/jquery.git",
+            "reference": "ef9c4fe9fcb23914bba6ec6d32c556e4a38a0fd9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/frameworks/jquery/zipball/ef9c4fe9fcb23914bba6ec6d32c556e4a38a0fd9",
+            "reference": "ef9c4fe9fcb23914bba6ec6d32c556e4a38a0fd9",
+            "shasum": ""
+        },
+        "time": "2015-10-09 00:55:51",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "jQuery JavaScript Library",
+        "homepage": "http://jquery.com"
+    },
+    {
+        "name": "phpmv/php-mv-ui",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpMv/phpMv-UI.git",
+            "reference": "b1fd353de209e9203ed313d71b78ec2c2ff8c8d8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpMv/phpMv-UI/zipball/b1fd353de209e9203ed313d71b78ec2c2ff8c8d8",
+            "reference": "b1fd353de209e9203ed313d71b78ec2c2ff8c8d8",
+            "shasum": ""
+        },
+        "require": {
+            "frameworks/jquery": "~2.1",
+            "php": ">5.3.9"
+        },
+        "suggest": {
+            "components/jqueryui": "~1.11",
+            "semantic/ui": "~2.2.1",
+            "twitter/bootstrap": "~3.3"
+        },
+        "time": "2017-03-16 20:23:53",
+        "type": "phpmv-ui",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Ajax\\": "Ajax/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache License Version 2"
+        ],
+        "authors": [
+            {
+                "name": "Jean-Christophe HERON",
+                "email": "myaddressmail@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A JQuery and UI library for php and php MVC frameworks",
+        "keywords": [
+            "codeigniter",
+            "framework",
+            "jQuery UI",
+            "jquery",
+            "laravel",
+            "phalcon",
+            "php",
+            "semantic ui",
+            "symfony",
+            "twitter bootstrap",
+            "yii"
+        ]
+    }
+]
